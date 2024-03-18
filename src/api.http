@@ -1,0 +1,12 @@
+### Obtener todos los datos de api/diaries
+GET http://localhost:3000/api/diaries/
+### Agregar un nuevo dia del clima
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+    "date": "2024-03-16",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "Awesome day, perfect"
+}
